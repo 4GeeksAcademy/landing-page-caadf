@@ -16,13 +16,13 @@ const Navbar = (props) => {
                 <a className="nav-link active" aria-current="page" href="#">{props.home}</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">About</a>
+                <a className="nav-link" href="#">{props.about}</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Service</a>
+                <a className="nav-link" href="#">{props.service}</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link disabled">Contact</a>
+                <a className="nav-link disabled">{props.contact}</a>
               </li>
             </ul>
           </div>

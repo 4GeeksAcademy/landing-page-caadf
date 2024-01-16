@@ -7,9 +7,15 @@ const App = () => {
     <>
     <Navbar 
     titulo="Start Bootstrap" 
-    home="Home"/>
+    home="Home"
+    about="About"
+    service="Service"
+    contact="Contact"
+    />
     <Jumbotron
-    
+    title="A warm Welcome!"
+    parrafo=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quas temporibus omnis libero autem! Deserunt accusamus earum commodi blanditiis similique ea eos consequatur necessitatibus. Ducimus corporis illum eveniet qui eos."
+    boton="Call to action!"
     />
     </>
     )
