@@ -21,7 +21,7 @@ const App = () => {
             />
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-3 col-xs-12">
+                    <div className="col-lg-3 col-xs-12 ">
                         <Card
                             img="https://i.pinimg.com/564x/de/0b/bd/de0bbdac45d24e4961f6a1fb8f9c080c.jpg"
                             titulo="Card Title"
