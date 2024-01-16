@@ -1,8 +1,17 @@
 import React from 'react';
+import Navbar from './componentes/navbar.jsx';
+import Jumbotron from './componentes/jumbotron.jsx';
 
 const App = () => {
     return (
-        <h1>REACT APP</h1>
+    <>
+    <Navbar 
+    titulo="Start Bootstrap" 
+    home="Home"/>
+    <Jumbotron
+    
+    />
+    </>
     )
 }
 
